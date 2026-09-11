@@ -1,0 +1,46 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Convex keys
+.env.convex
+convex/dist/
+
+# Editor / IDE directories
+.vscode/*
+!.vscode/extensions.json
+.idea
+.cursor
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Netlify local cache
+.netlify
+
+# Debug / setup scripts (not needed in repo)
+*.ps1
+FIX_NOW.txt
+README_SETUP.txt
+seed-instructions.js
+setup.mjs
+public/setup.html
